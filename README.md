@@ -8,6 +8,10 @@
 [![Coverity Status](https://scan.coverity.com/projects/5494/badge.svg)](https://scan.coverity.com/projects/5494)
 ********************************
 
+
+## Apa itu qBittorrent?
+qBittorrent adalah klien qBitTorrent gratis dan open‑source yang ringan, cepat, dan bebas iklan dalam mengakses jaringan torrent yang kalian inginkan. Pada repo ini kami menghadirkan qBitTorrent yang dapat diakses dari mana saja dengan mudah, baik dalam memanage torrent dari hostingan kalian hingga menambahkan unduhan ke device kalian dari jarak jauh!
+
 <details>
     <summary><b>Anggota Kelompok 6 KDJK Parallel 1</b></summary>
     
@@ -19,9 +23,6 @@
 | G6401231091 | Yasir |
     
 </details>
-
-## Apa itu qBittorrent?
-qBittorrent adalah klien qBitTorrent gratis dan open‑source yang ringan, cepat, dan bebas iklan dalam mengakses jaringan torrent yang kalian inginkan. Pada repo ini kami menghadirkan qBitTorrent yang dapat diakses dari mana saja dengan mudah, baik dalam memanage torrent dari hostingan kalian hingga menambahkan unduhan ke device kalian dari jarak jauh!
 
 
 ## Instalisasi & Setup
