@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://drive.google.com/uc?id=19B5AMjAKLjugMMzH6NZiu3SVQZh5e8wc" 
+       width="200" height="200" alt="qBittorrent Logo">
+</p>
+
 # qBittorrent - qrent bet dah
 ------------------------------------------
 
