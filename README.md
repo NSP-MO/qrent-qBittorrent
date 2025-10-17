@@ -8,9 +8,6 @@
 [![Coverity Status](https://scan.coverity.com/projects/5494/badge.svg)](https://scan.coverity.com/projects/5494)
 ********************************
 
-## Apa itu qBittorrent?
-> ToDo
-
 <details>
     <summary><b>Anggota Kelompok 6 KDJK Parallel 1</b></summary>
     
@@ -23,6 +20,8 @@
     
 </details>
 
+## Apa itu qBittorrent?
+> ToDo
 
 ## Instalisasi & Setup
 ### instalisasi versi simple
