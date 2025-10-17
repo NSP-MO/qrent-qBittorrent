@@ -12,13 +12,9 @@
 - Download qBittorrent [di sini](http://qbittorrent.org/download)
 - Selesaikan intalasisasi sampai ke halaman ini
 ![Halaman awal](https://drive.google.com/uc?id=1O632iPNSSm9EnI8VwDF7mJZl-nSSqWWP)
-
-- Ke laman option
-![Halaman option](https://drive.google.com/uc?id=1A7_IYsSDBPz9eqhKL-CGGmA7L7JwWTdw)
-
+- Ke laman option di Tools/Options atau Alt+O
 - Di WebUI centang Web User Interface dengan IP address: 127.0.0.1 (Localhost) & port: 8080
 ![Halaman WebUI](https://drive.google.com/uc?id=1kOX6QzPeKnMgDNLSl4RbEHjWi6f1h4W2)
-
 - Masukkan Username dan Password untuk authentication setiap kali masuk, then apply.
 
 ### instalisasi versi lengkap untuk development (windows)
