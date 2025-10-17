@@ -1,10 +1,8 @@
+# qBittorrent - qrent bet dah
 <p align="center">
   <img src="https://drive.google.com/uc?id=19B5AMjAKLjugMMzH6NZiu3SVQZh5e8wc" 
        width="200" height="200" alt="qBittorrent Logo">
 </p>
-
-# qBittorrent - qrent bet dah
-------------------------------------------
 
 [![GitHub Actions CI Status](https://github.com/qbittorrent/qBittorrent/actions/workflows/ci_ubuntu.yaml/badge.svg)](https://github.com/qbittorrent/qBittorrent/actions)
 [![Coverity Status](https://scan.coverity.com/projects/5494/badge.svg)](https://scan.coverity.com/projects/5494)
