@@ -16,7 +16,10 @@
 ### instalisasi versi simple
 - Download qBittorrent [di sini](http://qbittorrent.org/download)
 - Selesaikan intalasisasi sampai ke halaman ini
-![Halaman awal](https://drive.google.com/uc?id=1O632iPNSSm9EnI8VwDF7mJZl-nSSqWWP)
+<p align="left">
+  <img src="https://drive.google.com/uc?id=1O632iPNSSm9EnI8VwDF7mJZl-nSSqWWP" 
+       width="639" height="360" alt="Halaman awal">
+</p>
 
 ### instalisasi versi lengkap untuk development (windows)
 - Install CMake terlebih dahulu [di sini](https://cmake.org/download/), then restart terminal.
@@ -41,8 +44,17 @@ cmake --build build --config Release
 
 ### Setup qBittorent
 - Ke laman option di Tools/Options atau Alt+O
+<p align="left">
+  <img src="https://drive.google.com/uc?id=1A7_IYsSDBPz9eqhKL-CGGmA7L7JwWTdw" 
+       height="120" alt="Halaman WebUI">
+</p>
+
 - Di WebUI centang Web User Interface dengan IP address: 127.0.0.1 (Localhost) & port: 8080
-![Halaman WebUI](https://drive.google.com/uc?id=1kOX6QzPeKnMgDNLSl4RbEHjWi6f1h4W2)
+<p align="left">
+  <img src="https://drive.google.com/uc?id=1kOX6QzPeKnMgDNLSl4RbEHjWi6f1h4W2" 
+       width="451" height="360" alt="Halaman WebUI">
+</p>
+
 - Masukkan Username dan Password untuk authentication setiap kali masuk, then apply.
 
 ### Setup Cloudflared
