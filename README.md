@@ -7,13 +7,20 @@
 [![GitHub Actions CI Status](https://github.com/qbittorrent/qBittorrent/actions/workflows/ci_ubuntu.yaml/badge.svg)](https://github.com/qbittorrent/qBittorrent/actions)
 [![Coverity Status](https://scan.coverity.com/projects/5494/badge.svg)](https://scan.coverity.com/projects/5494)
 ********************************
-### Kelompok 6 KDJK Parallel 1
+
+<details>
+    <summary><b>Anggota Kelompok 6 KDJK Parallel 1</b></summary>
+    
 | NIM | Nama |
 | ------ | ------ |
 | G6401231038 | Arief Abdul Rahman |
 | G6401231080 | Muhammad Farhadh |
 | G6401231011 | Hamzah Hudzaifah |
 | G6401231091 | Yasir |
+    
+</details>
+
+---
 
 ## Apa itu qBittorrent?
 > ToDo
