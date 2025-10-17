@@ -16,7 +16,7 @@
 - Selesaikan intalasisasi sampai ke halaman ini
 <p align="left">
   <img src="https://drive.google.com/uc?id=1O632iPNSSm9EnI8VwDF7mJZl-nSSqWWP" 
-       width="639" height="360" alt="Halaman awal">
+       width="638" alt="Halaman awal">
 </p>
 
 ### instalisasi versi lengkap untuk development (windows)
@@ -56,5 +56,68 @@ cmake --build build --config Release
 - Masukkan Username dan Password untuk authentication setiap kali masuk, then apply.
 
 ### Setup Cloudflared
-> ToDo
+- Sign in & Sign up [Cloudflare](https://dash.cloudflare.com/)
+- Buat Tunnel Network baru dengan tipe Cloudflared
+<p align="left">
+  <img src="https://drive.google.com/uc?id=1ZD74128s2LvS1SVzv1tNlsY2ZKCmzoqq" 
+       width="638" alt="Cloudflared">
+</p>
 
+- Beri nama tunnelnya, then pilih environment sesuai yang dipakai lalu install cloudflared dari link yang disediakan (Matikan antivirus)
+<p align="left">
+  <img src="https://drive.google.com/uc?id=19ogafuiQzzNfm2Mtza4O4uk1PjSeNZs8" 
+       width="638" alt="CloudflaredSetup">
+</p>
+
+- Jalankan command yang disediakan (cloudflared.exe service install ....) pada terminal dengan access Administrator
+<p align="left">
+  <img src="https://drive.google.com/uc?id=19_mc6dHhTCPssrktwQglKqua6Tww4zl8" 
+       width="638" alt="CloudflaredSetup">
+</p>
+
+- Login Cloudflared
+```sh
+cloudflared tunnel login
+```
+Ganti Domain Nameservers (DNS) dengan:
+```sh
+collins.ns.cloudflare.com
+```
+```sh
+trace.ns.cloudflare.com
+```
+
+<p align="left">
+  <img src="https://drive.google.com/uc?id=1tYsWNuTYjqzpXxMFnHqv7iF0OsDzVITG" 
+       width="638" alt="CloudflaredSetup">
+</p>
+
+- Lanjutkan ke laman Cloudflared kembali, lalu isikan domain dan service dari page yang ingin kalian tampilkan
+<p align="left">
+  <img src="https://drive.google.com/uc?id=1xa2VcuWMwht4mWL8eU2oM-ckQeWidD8L" 
+       width="638" alt="CloudflaredSetup">
+</p>
+
+- Tunggu beberapa saat sekitar ~5 menitan
+
+- Jalankan tunnel dengan
+```sh
+cloudflared tunnel run --token "<Token>"
+```
+ganti <token> dengan token milik kalian, cara cek nya?
+```sh
+cloudflared tunnel token <tunnel>
+```
+ganti <tunnel> sesuai nama tunnel yang tadi kalian buat
+
+- Buka website domain kalian, then masukkan Username dan Password yang sudah kalian buat
+<p align="left">
+  <img src="https://drive.google.com/uc?id=1IZSyMwcWIdhRquTuj1st8AjI3zBmRyYO" 
+       width="638" alt="CloudflaredSetup">
+</p>
+
+- Setup selesai, sekarang kalian dapat mengakses qBittorrent tanpa batasan jarak
+<p align="left">
+  <img src="https://drive.google.com/uc?id=1udpjPnKImuHLv1qVgm9QE3Edt4aWVUAh" 
+       width="638" alt="CloudflaredSetup">
+</p>
