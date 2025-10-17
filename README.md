@@ -41,7 +41,7 @@ qBittorrent adalah klien qBitTorrent gratis dan open‑source yang ringan, cepat
 git clone https://github.com/microsoft/vcpkg C:\vcpkg
 C:\vcpkg\bootstrap-vcpkg.bat
 ```
-- Install deps (x64):
+- Install deps (x64): (this may take long, ~50min on 16 Threads Dekstop CPU)
 ```sh
 C:\vcpkg\vcpkg.exe install libtorrent:x64-windows qtbase qttools zlib openssl boost:x64-windows qtsvg:x64-windows qttools:x64-windows
 ```
