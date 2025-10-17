@@ -21,7 +21,8 @@
 </details>
 
 ## Apa itu qBittorrent?
-> ToDo
+qBittorrent adalah klien qBitTorrent gratis dan open‑source yang ringan, cepat, dan bebas iklan dalam mengakses jaringan torrent yang kalian inginkan. Pada repo ini kami menghadirkan qBitTorrent yang dapat diakses dari mana saja dengan mudah, baik dalam memanage torrent dari hostingan kalian hingga menambahkan unduhan ke device kalian dari jarak jauh!
+
 
 ## Instalisasi & Setup
 ### instalisasi versi simple
