@@ -20,8 +20,6 @@
     
 </details>
 
----
-
 ## Apa itu qBittorrent?
 > ToDo
 
