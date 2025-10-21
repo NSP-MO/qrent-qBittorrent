@@ -40,6 +40,7 @@ qBittorrent adalah klien qBitTorrent gratis dan open‑source yang ringan, cepat
        width="638" alt="Halaman awal">
 </p>
 
+
 ### instalisasi versi lengkap untuk development (windows)
 - Install CMake terlebih dahulu [di sini](https://cmake.org/download/), then restart terminal.
 - Install vcpkg (bila belum)
