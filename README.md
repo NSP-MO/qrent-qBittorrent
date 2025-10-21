@@ -26,6 +26,12 @@ qBittorrent adalah klien qBitTorrent gratis dan open‑source yang ringan, cepat
 
 
 ## Instalisasi & Setup
+
+### Lihat panduan instalasi untuk linux:
+- [Debian/Ubuntu](./debian)
+- [Arch-Linux](./arch)
+- [NixOS](./nixos)
+
 ### instalisasi versi simple
 - Download qBittorrent [di sini](http://qbittorrent.org/download)
 - Selesaikan intalasisasi sampai ke halaman ini
