@@ -33,7 +33,8 @@ sudo nixos-rebuild switch
 ```
  Cek apakah qBittorrent berjalan
 ```bash
-sudo systemctl qbittorrent
+sudo systemctl start qbittorrent
+sudo systemctl status qbittorrent
 ```
 
 ## Instalasi & Konfigurasi Cloudflared
