@@ -143,3 +143,11 @@ ganti <tunnel> sesuai nama tunnel yang tadi kalian buat
   <img src="https://drive.google.com/uc?id=1udpjPnKImuHLv1qVgm9QE3Edt4aWVUAh" 
        width="638" alt="CloudflaredSetup">
 </p>
+
+## Referensi
+https://github.com/qbittorrent/
+https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/
+https://search.nixos.org/](https://wiki.archlinux.org/title/QBittorrent
+https://wiki.nixos.org/wiki/Cloudflared
+https://wiki.archlinux.org/title/Cloudflared
+https://qbittorrent.org/
