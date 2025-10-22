@@ -3,9 +3,9 @@ setlocal enableextensions enabledelayedexpansion
 title qBittorrent + Cloudflared Launcher
 
 REM =========================
-REM Config
+REM Config (Tokennya Ganti Dulu)
 REM =========================
-set "CF_TUNNEL_TOKEN=eyJhIjoiNmZhYzliMzRlY2MxY2EyNTI5NGNhYzcyNzEwZTkzYjIiLCJzIjoiTm1WaU5USTNZemd0TURWaU55MDBPV1V6TFRoa09HUXRNMlU1TURBeU9UbGlZMlkxIiwidCI6IjkzMzQxNmQ2LWIwNzAtNDU3Yy1iMjEyLTFmMDc5OTE2ZDU2OCJ9"
+set "CF_TUNNEL_TOKEN=eyJhIjoiNmZhYzliMzRlY2MxY..........."
 
 REM Lokasi qBittorrent (ubah jika perlu)
 set "QBT_EXE=C:\Program Files\qBittorrent\qbittorrent.exe"
