@@ -144,10 +144,39 @@ ganti <tunnel> sesuai nama tunnel yang tadi kalian buat
        width="638" alt="CloudflaredSetup">
 </p>
 
+## Kelebihan & Kekurangan
+### Kelebihan
+-   Open Source dan Transparan
+    -   Kode sumber dapat diakses bebas di GitHub.
+    -   Didukung komunitas global dengan pembaruan rutin.
+-   Ringan dan Efisien
+    -   Konsumsi CPU dan memori rendah.
+-   Antarmuka mudah digunakan
+    -   Dapat diakses dari browser tanpa GUI lokal.
+    -   Mendukung fitur drag-and-drop untuk torrent.
+-   Integrasi Cloudflare Tunnel Aman
+    -   Menghindari pembukaan port publik secara langsung.
+    -   Akses aman di jaringan publik.
+-   Dukungan Fitur Lengkap
+    -   Mendukung magnet link, RSS feed, sequential download, hingga scheduler.
+---
+ 
+ ### Kekurangan
+ -   Tidak Cocok untuk Shared Hosting
+    -   Membutuhkan hak akses root dan port khusus, sehingga tidak dapat dijalankan di hosting umum seperti cPanel.
+-   Potensi Risiko Keamanan
+    -   Jika password WebUI tidak diganti atau HTTPS tidak digunakan, bisa diakses oleh pihak luar.
+-   Tergantung pada Kualitas Jaringan
+    -   Kecepatan unduh sangat bergantung pada peer dan bandwidth server.
+-   Memerlukan Perangkat yang Selalu Aktif
+    -   Komputer host harus terus menyala untuk memastikan layanan dapat diakses kapan saja.
+## Perbandingan dengan Aplikasi Web Lain
+<img src="https://github.com/NSP-MO/qrent-qBittorrent/blob/master/documentation/Screenshot_20251023_042409.png">
+ 
 ## Referensi
 https://github.com/qbittorrent/
 https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/
-https://search.nixos.org/](https://wiki.archlinux.org/title/QBittorrent
+https://search.nixos.org/](https://wiki.archlinux.org/title/QBittorrent 
 https://wiki.nixos.org/wiki/Cloudflared
 https://wiki.archlinux.org/title/Cloudflared
 https://qbittorrent.org/
