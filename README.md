@@ -27,6 +27,8 @@ qBittorrent adalah klien qBitTorrent gratis dan open‑source yang ringan, cepat
 
 ## Instalisasi & Setup
 
+### 
+
 ### Lihat panduan instalasi untuk linux:
 - [Debian/Ubuntu](./debian)
 - [Arch-Linux](./arch)
@@ -170,8 +172,17 @@ ganti <tunnel> sesuai nama tunnel yang tadi kalian buat
     -   Kecepatan unduh sangat bergantung pada peer dan bandwidth server.
 -   Memerlukan Perangkat yang Selalu Aktif
     -   Komputer host harus terus menyala untuk memastikan layanan dapat diakses kapan saja.
+
 ## Perbandingan dengan Aplikasi Web Lain
-<img src="https://github.com/NSP-MO/qrent-qBittorrent/blob/master/documentation/Screenshot_20251023_042409.png">
+
+| **Aspek** | **qBittorrent** | **Deluge** | **Tribler** |
+|------------|------------------|-------------|--------------|
+| **Kelebihan** | Alternatif µTorrent yang ringan & bebas iklan. | Modular, cocok untuk server. | Privasi total & desentralisasi. |
+| **Interface** | Desktop interface (Qt) dan WebUI, mudah digunakan. | Arsitektur client–server; ada daemon dan antarmuka terpisah. | Antarmuka tunggal dengan sistem pencarian torrent dan channel internal. |
+| **Privasi & Keamanan** | Standar. Menyediakan fitur dasar seperti IP filtering dan enkripsi koneksi. Disarankan menggunakan VPN. | Standar. Keamanan bergantung pada konfigurasi dan plugin yang digunakan. Memerlukan VPN eksternal untuk privasi. | Sangat tinggi. Fitur inti adalah menyembunyikan alamat IP pengguna melalui jaringannya sendiri, memberikan anonimitas bawaan. |
+| **Resource Usage** | Ringan. Sangat efisien dalam penggunaan CPU dan RAM, bahkan saat menangani banyak torrent. | Sangat ringan. Daemon Deluge memiliki jejak memori sangat kecil, menjadi pilihan utama untuk server. | Sedang ke berat. Membutuhkan lebih banyak CPU dan RAM karena proses enkripsi dan routing untuk jaringan anonim. |
+| **Target Pengguna** | Pengguna umum. Ideal untuk penggunaan desktop sehari-hari yang simpel dan kuat. | Pengguna ahli & server. Cocok untuk seedbox, NAS, atau pengguna yang butuh kustomisasi tinggi. | Pengguna sadar privasi. Didesain untuk pengguna tunggal dengan fokus pada privasi individu. |
+
  
 ## Referensi
 https://github.com/qbittorrent/
