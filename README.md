@@ -27,7 +27,17 @@ qBittorrent adalah klien qBitTorrent gratis dan open‑source yang ringan, cepat
 
 ## Instalisasi & Setup
 
-### 
+### Spesifikasi / Requirement
+
+Berikut merupakan spesifikasi umum yang diperlukan untuk menjalankan dan melakukan deployment aplikasi **qBittorrent**:
+
+- **Sistem Operasi:** Windows atau Linux (disarankan Ubuntu Server 22.04 LTS)  
+- **Command Line Interface (CLI):** Terminal (Linux) atau PowerShell (Windows)  
+- **Koneksi Internet:** Diperlukan untuk instalasi, update dependencies, dan koneksi torrent  
+- **Perangkat Hosting:** Laptop atau Komputer yang akan dijadikan Host 
+- **RAM Minimal:** 600 MB  
+- **Akun Cloudflare:** Digunakan untuk konfigurasi **Cloudflare Tunnel** agar aplikasi dapat diakses secara publik dengan aman
+
 
 ### Lihat panduan instalasi untuk linux:
 - [Debian/Ubuntu](./debian)
